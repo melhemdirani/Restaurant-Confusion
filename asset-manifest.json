@@ -1,11 +1,18 @@
 {
   "main.css": "static/css/main.1f8045da.css",
   "main.css.map": "static/css/main.1f8045da.css.map",
-  "main.js": "static/js/main.d4566902.js",
-  "main.js.map": "static/js/main.d4566902.js.map",
+  "main.js": "static/js/main.9e107044.js",
+  "main.js.map": "static/js/main.9e107044.js.map",
+  "static/media/alberto.png": "static/media/alberto.fa0f78f3.png",
+  "static/media/buffet.png": "static/media/buffet.96d6bd20.png",
+  "static/media/elaicheesecake.png": "static/media/elaicheesecake.a1c19f6d.png",
   "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
   "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
   "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
-  "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff"
+  "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
+  "static/media/logo.png": "static/media/logo.eb267f35.png",
+  "static/media/uthappizza.png": "static/media/uthappizza.c8fcf9ae.png",
+  "static/media/vadonut.png": "static/media/vadonut.986a2644.png",
+  "static/media/zucchipakoda.png": "static/media/zucchipakoda.e54b2833.png"
 }
