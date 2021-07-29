@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Restaurant-Confusion/static/css/main.e03eb87c.chunk.css",
-    "main.js": "/Restaurant-Confusion/static/js/main.aa907a1e.chunk.js",
-    "main.js.map": "/Restaurant-Confusion/static/js/main.aa907a1e.chunk.js.map",
+    "main.js": "/Restaurant-Confusion/static/js/main.5d31458c.chunk.js",
+    "main.js.map": "/Restaurant-Confusion/static/js/main.5d31458c.chunk.js.map",
     "runtime-main.js": "/Restaurant-Confusion/static/js/runtime-main.a5dcf461.js",
     "runtime-main.js.map": "/Restaurant-Confusion/static/js/runtime-main.a5dcf461.js.map",
     "static/css/2.d8348ca0.chunk.css": "/Restaurant-Confusion/static/css/2.d8348ca0.chunk.css",
     "static/js/2.b439c195.chunk.js": "/Restaurant-Confusion/static/js/2.b439c195.chunk.js",
     "static/js/2.b439c195.chunk.js.map": "/Restaurant-Confusion/static/js/2.b439c195.chunk.js.map",
     "index.html": "/Restaurant-Confusion/index.html",
-    "precache-manifest.6654eca7b2e7c15f1fe1f814860764cd.js": "/Restaurant-Confusion/precache-manifest.6654eca7b2e7c15f1fe1f814860764cd.js",
+    "precache-manifest.9619960a5318fda98cd36fc734c856c3.js": "/Restaurant-Confusion/precache-manifest.9619960a5318fda98cd36fc734c856c3.js",
     "service-worker.js": "/Restaurant-Confusion/service-worker.js",
     "static/css/2.d8348ca0.chunk.css.map": "/Restaurant-Confusion/static/css/2.d8348ca0.chunk.css.map",
     "static/css/main.e03eb87c.chunk.css.map": "/Restaurant-Confusion/static/css/main.e03eb87c.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.d8348ca0.chunk.css",
     "static/js/2.b439c195.chunk.js",
     "static/css/main.e03eb87c.chunk.css",
-    "static/js/main.aa907a1e.chunk.js"
+    "static/js/main.5d31458c.chunk.js"
   ]
 }
