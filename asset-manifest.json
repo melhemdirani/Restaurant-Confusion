@@ -1,26 +1,11 @@
 {
-  "files": {
-    "main.css": "/Restaurant-Confusion/static/css/main.e03eb87c.chunk.css",
-    "main.js": "/Restaurant-Confusion/static/js/main.5d31458c.chunk.js",
-    "main.js.map": "/Restaurant-Confusion/static/js/main.5d31458c.chunk.js.map",
-    "runtime-main.js": "/Restaurant-Confusion/static/js/runtime-main.a5dcf461.js",
-    "runtime-main.js.map": "/Restaurant-Confusion/static/js/runtime-main.a5dcf461.js.map",
-    "static/css/2.d8348ca0.chunk.css": "/Restaurant-Confusion/static/css/2.d8348ca0.chunk.css",
-    "static/js/2.b439c195.chunk.js": "/Restaurant-Confusion/static/js/2.b439c195.chunk.js",
-    "static/js/2.b439c195.chunk.js.map": "/Restaurant-Confusion/static/js/2.b439c195.chunk.js.map",
-    "index.html": "/Restaurant-Confusion/index.html",
-    "precache-manifest.9619960a5318fda98cd36fc734c856c3.js": "/Restaurant-Confusion/precache-manifest.9619960a5318fda98cd36fc734c856c3.js",
-    "service-worker.js": "/Restaurant-Confusion/service-worker.js",
-    "static/css/2.d8348ca0.chunk.css.map": "/Restaurant-Confusion/static/css/2.d8348ca0.chunk.css.map",
-    "static/css/main.e03eb87c.chunk.css.map": "/Restaurant-Confusion/static/css/main.e03eb87c.chunk.css.map",
-    "static/js/2.b439c195.chunk.js.LICENSE.txt": "/Restaurant-Confusion/static/js/2.b439c195.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.min.css": "/Restaurant-Confusion/static/media/fontawesome-webfont.fee66e71.woff"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.a5dcf461.js",
-    "static/css/2.d8348ca0.chunk.css",
-    "static/js/2.b439c195.chunk.js",
-    "static/css/main.e03eb87c.chunk.css",
-    "static/js/main.5d31458c.chunk.js"
-  ]
+  "main.css": "static/css/main.1f8045da.css",
+  "main.css.map": "static/css/main.1f8045da.css.map",
+  "main.js": "static/js/main.d4566902.js",
+  "main.js.map": "static/js/main.d4566902.js.map",
+  "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
+  "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
+  "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
+  "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
+  "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff"
 }
