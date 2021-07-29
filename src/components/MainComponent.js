@@ -78,7 +78,7 @@ class Main extends Component {
                     <Route exact path="/aboutus" component={ AboutUsPage } />
                    
                     {/* if url dosesnt match, bydefault redirect to */}
-                    <Redirect to="/home" />
+                    <Redirect to={process.env.PUBLIC_URL + '/'} />
                 </Switch>
 
                 <Footer></Footer>

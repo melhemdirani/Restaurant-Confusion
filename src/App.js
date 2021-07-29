@@ -17,7 +17,7 @@ class App extends Component{
 
     return(
       <Provider store={store}>
-        <BrowserRouter>
+        <BrowserRouter basename="/Restaurant-Confusion">
           <div>
             <Main />
           </div>      

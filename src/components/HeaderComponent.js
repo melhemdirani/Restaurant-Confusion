@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from "../assets/images/logo.png"
 
 import { 
     Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron,
@@ -43,20 +44,13 @@ class Header extends Component{
 
     render(){
         return(
-            // react fragment
-            // <>
-            // </>
             <React.Fragment>
-
                 <Navbar dark expand="md">                   
                     <div className="container">
-
                         <NavbarToggler onClick={this.toggleNav} />
-
-                        <NavbarBrand className="mr-auto" href="/">
-                            <img src="assets/images/logo.png" height="30" width="41" alt="Ristorante Con Fusion" />
+                        <NavbarBrand className="mr-auto" href={process.env.PUBLIC_URL + '/'}>
+                            <img src={logo}  height="30" width="41" alt="Ristorante Con Fusion" />
                         </NavbarBrand>
-
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
                                 <NavItem>
@@ -64,27 +58,22 @@ class Header extends Component{
                                     <span className="fa fa-home fa-lg" ></span>Home
                                     </NavLink>
                                 </NavItem>
-                                
                                 <NavItem>
                                     <NavLink className="nav-link" to="/aboutus">
                                     <span className="fa fa-info fa-lg" ></span>About Us
                                     </NavLink>
                                 </NavItem>
-                                
                                 <NavItem>
                                     <NavLink className="nav-link" to="/menu">
                                         <span className="fa fa-list fa-lg" ></span>Menu
                                     </NavLink>
                                 </NavItem>
-                                
                                 <NavItem>
                                     <NavLink className="nav-link" to="/contactus">
                                         <span className="fa fa-address-card fa-lg" ></span>Contact Us
                                     </NavLink>
                                 </NavItem>
-
                             </Nav> 
-
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
                                     <Button outline onClick={this.toggleModal}>
@@ -95,7 +84,6 @@ class Header extends Component{
                         </Collapse>
                     </div>
                 </Navbar>
-
                 <Jumbotron>
                     <div className="container">
                         <div className="row row-header">
@@ -110,22 +98,16 @@ class Header extends Component{
                         </div>
                     </div>
                 </Jumbotron>
-
-                {/* login Modal */}
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal} >
                     <ModalHeader toggle={this.toggleModal}> Login </ModalHeader>
                     <ModalBody>
-                        {/* uncontrol form */}
                         <Form onSubmit={this.handleLogin} > 
-                            {/* username */}
                             <FormGroup>
                                 <Label htmlFor="username">Username</Label>
                                 <Input type="text" id="username" name="username"
                                     innerRef={(input)=> this.username = input }
                                 />
                             </FormGroup>
-                            
-                            {/* pass */}
                             <FormGroup>
                                 <Label htmlFor="password">Password</Label>
                                 <Input type="password" id="password" name="password"
@@ -133,8 +115,6 @@ class Header extends Component{
 
                                 />
                             </FormGroup>
-                            
-                            {/* checkbox */}
                             <FormGroup check>
                                 <Label check>
                                     <Input type="checkbox" name="remember"
@@ -150,11 +130,9 @@ class Header extends Component{
                                     login
                                 </Button>
                             </FormGroup>
-                            
                         </Form>
                     </ModalBody>
                 </Modal>
-
             </React.Fragment>
         );
     }
