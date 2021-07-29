@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Restaurant-Confusion/precache-manifest.77eb4c42fd032286c813748ec6b3e227.js"
+  "/Restaurant-Confusion/precache-manifest.6654eca7b2e7c15f1fe1f814860764cd.js"
 );
 
 self.addEventListener('message', (event) => {
